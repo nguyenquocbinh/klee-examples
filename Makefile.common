@@ -10,7 +10,7 @@ KLEE=klee
 # In the following, please select suitable include directory
 CFLAGS=-emit-llvm -g -I/usr/local/lib/tracerx/include
 #CFLAGS=-emit-llvm -g -I${HOME}/nus/kleetest
-#CFLAGS=-emit-llvm -g -I${HOME}/software/klee/include
+CFLAGS=-emit-llvm -g -I${HOME}/software/klee/include
 
 CC=clang
 AS=${CC} -S -emit-llvm
